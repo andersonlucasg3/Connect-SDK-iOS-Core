@@ -16,6 +16,7 @@
 //
 
 #import "DeviceServiceReachability.h"
+#import "Debug.h"
 
 @implementation DeviceServiceReachability
 {

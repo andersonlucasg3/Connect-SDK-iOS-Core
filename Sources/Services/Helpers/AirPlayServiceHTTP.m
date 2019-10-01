@@ -30,6 +30,7 @@
 #import "ASIHTTPRequest.h"
 
 #import "NSObject+FeatureNotSupported_Private.h"
+#import "Debug.h"
 
 @interface AirPlayServiceHTTP () <ServiceCommandDelegate, DeviceServiceReachabilityDelegate>
 

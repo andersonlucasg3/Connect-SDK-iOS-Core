@@ -22,6 +22,7 @@
 #import "ServiceDescription.h"
 #import "CommonMacros.h"
 #include <arpa/inet.h>
+#import "Debug.h"
 
 @interface ZeroConfDiscoveryProvider ()
 {

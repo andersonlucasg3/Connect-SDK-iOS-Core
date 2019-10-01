@@ -27,6 +27,7 @@
 #import "AirPlayService.h"
 
 #import "NSObject+FeatureNotSupported_Private.h"
+#import "Debug.h"
 
 /*credit : http://stackoverflow.com/questions/30040055/uiviewcontroller-displayed-sideways-on-airplay-screen-when-launched-from-landsca/30355853#30355853
  

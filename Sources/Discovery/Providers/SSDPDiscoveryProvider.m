@@ -24,6 +24,7 @@
 #import "CTXMLReader.h"
 #import "DeviceService.h"
 #import "CommonMacros.h"
+#import "Debug.h"
 
 #import <sys/utsname.h>
 

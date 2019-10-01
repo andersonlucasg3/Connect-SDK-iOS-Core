@@ -10,10 +10,10 @@
 #import "ASIWebPageRequest.h"
 #import "ASINetworkQueue.h"
 #import <CommonCrypto/CommonHMAC.h>
-#import <libxml/HTMLparser.h>
-#import <libxml/xmlsave.h>
-#import <libxml/xpath.h>
-#import <libxml/xpathInternals.h>
+#import "HTMLparser.h"
+#import "xmlsave.h"
+#import "xpath.h"
+#import "xpathInternals.h"
 
 // An xPath query that controls the external resources ASIWebPageRequest will fetch
 // By default, it will fetch stylesheets, javascript files, images, frames, iframes, and html 5 video / audio

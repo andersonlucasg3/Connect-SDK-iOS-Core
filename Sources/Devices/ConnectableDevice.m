@@ -26,6 +26,7 @@
 #import "TextInputControl.h"
 #import "CTGuid.h"
 #import "DiscoveryManager.h"
+#import "Debug.h"
 
 @implementation ConnectableDevice
 {

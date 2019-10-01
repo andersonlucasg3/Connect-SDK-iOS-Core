@@ -19,7 +19,7 @@
 //
 
 #import "DefaultConnectableDeviceStore.h"
-
+#import "Debug.h"
 
 @implementation DefaultConnectableDeviceStore
 {

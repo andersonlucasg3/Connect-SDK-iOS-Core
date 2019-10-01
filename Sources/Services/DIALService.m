@@ -25,6 +25,7 @@
 #import "CTGuid.h"
 
 #import "NSObject+FeatureNotSupported_Private.h"
+#import "Debug.h"
 
 static NSMutableArray *registeredApps = nil;
 

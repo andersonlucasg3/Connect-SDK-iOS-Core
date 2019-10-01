@@ -31,6 +31,7 @@
 
 #import "NSObject+FeatureNotSupported_Private.h"
 #import "XMLWriter+ConvenienceMethods.h"
+#import "Debug.h"
 
 #define kSmartShareName @"SmartShare™"
 

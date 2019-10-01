@@ -36,6 +36,7 @@
 #import "CapabilityFilter.h"
 
 #import "AppStateChangeNotifier.h"
+#import "Debug.h"
 
 #import <SystemConfiguration/CaptiveNetwork.h>
 
