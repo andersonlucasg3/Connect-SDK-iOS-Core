@@ -47,7 +47,7 @@ let package = Package.init(
                 .headerSearchPath("Sources/Frameworks/asi-http-request/Classes/S3"),
                 .headerSearchPath("Sources/Frameworks/asi-http-request/External/GHUnit"),
                 .headerSearchPath("Sources/Frameworks/asi-http-request/External/Reachability"),
-                .unsafeFlags([ "-I${SDKROOT}/usr/include/libxml2/" ])
+                .unsafeFlags([ "-I${SDKROOT}/usr/include/libxml2/" ], .when(platforms: [.iOS]))
             ],
             linkerSettings: [
                 .linkedLibrary("libxml2")
