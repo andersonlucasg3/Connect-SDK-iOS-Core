@@ -16,12 +16,8 @@ let package = Package.init(
         .target(
             name: "ConnectSDK",
             path: ".",
-            exclude: [
-                "Tests",
-                "SystemLibraries"
-            ],
+            exclude: [ "Tests" ],
             cSettings: [
-                .unsafeFlags([ "-include", "Sources/Prefix.pch" ], .when(platforms: [.iOS])),
                 .headerSearchPath("Sources"),
                 .headerSearchPath("Sources/Devices"),
                 .headerSearchPath("Sources/Discovery"),
@@ -47,7 +43,7 @@ let package = Package.init(
                 .headerSearchPath("Sources/Frameworks/asi-http-request/Classes/S3"),
                 .headerSearchPath("Sources/Frameworks/asi-http-request/External/GHUnit"),
                 .headerSearchPath("Sources/Frameworks/asi-http-request/External/Reachability"),
-                .unsafeFlags([ "-I${SDKROOT}/usr/include/libxml2/" ], .when(platforms: [.iOS]))
+                .headerSearchPath("External/libxml")
             ],
             linkerSettings: [
                 .linkedLibrary("libxml2")
