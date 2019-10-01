@@ -23,7 +23,6 @@
 #import "CommonMacros.h"
 #include <arpa/inet.h>
 
-
 @interface ZeroConfDiscoveryProvider ()
 {
     NSArray *_serviceFilters;

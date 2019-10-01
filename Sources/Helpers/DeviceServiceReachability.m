@@ -17,7 +17,6 @@
 
 #import "DeviceServiceReachability.h"
 
-
 @implementation DeviceServiceReachability
 {
     NSTimer *_runTimer;
