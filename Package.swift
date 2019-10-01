@@ -21,7 +21,7 @@ let package = Package.init(
                 "SystemLibraries"
             ],
             cSettings: [
-                .unsafeFlags([ "-include", "Sources/Prefix.pch" ]),
+                .unsafeFlags([ "-include", "Sources/Prefix.pch" ], .when(platforms: [.iOS])),
                 .headerSearchPath("Sources"),
                 .headerSearchPath("Sources/Devices"),
                 .headerSearchPath("Sources/Discovery"),
