@@ -43,7 +43,7 @@ let package = Package.init(
                 .headerSearchPath("../External/libxml")
             ],
             linkerSettings: [
-                .linkedLibrary("libxml2")
+                .linkedLibrary("xml2")
             ]
         )
     ],
